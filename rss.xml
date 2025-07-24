@@ -4,9 +4,9 @@
         <description><![CDATA[MD Candidate @ Yonsei University | Genome editing / Functional genomics]]></description>
         <link>https://example.com</link>
         <generator>JsonBlog Generator</generator>
-        <lastBuildDate>Thu, 24 Jul 2025 08:45:12 GMT</lastBuildDate>
+        <lastBuildDate>Thu, 24 Jul 2025 08:50:32 GMT</lastBuildDate>
         <atom:link href="https://example.com/rss.xml" rel="self" type="application/rss+xml"/>
-        <pubDate>Thu, 24 Jul 2025 08:45:12 GMT</pubDate>
+        <pubDate>Thu, 24 Jul 2025 08:50:32 GMT</pubDate>
         <language><![CDATA[en]]></language>
         <ttl>60</ttl>
         <item>
@@ -15,7 +15,7 @@
 (내용은 추후 수정)]]></description>
             <link>https://example.com/hello-world.html</link>
             <guid isPermaLink="false">https://example.com/hello-world.html</guid>
-            <pubDate>Thu, 24 Jul 2025 08:45:12 GMT</pubDate>
+            <pubDate>Thu, 24 Jul 2025 08:50:32 GMT</pubDate>
         </item>
     </channel>
 </rss>
