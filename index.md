@@ -8,7 +8,6 @@ title: About
 <img src="https://github.com/yumin-c/yumin-c.github.io/blob/main/yumin-notion-face.png?raw=true" alt="yumin-notion-face" class="profile-photo">
 
 **MD candidate, Yonsei University College of Medicine**  
-Genome editing + Functional genomics
 
 I’m a fourth-year medical student deeply interested in gene editing and therapeutic strategies for rare diseases. I focus on building computational tools that bridge gene editing methods and their translational potential for rare diseases.
 
