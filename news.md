@@ -6,6 +6,9 @@ title: News
 **2026.02.18**  
 Refactored the blog to use Jekyll!
 
+**2025.11.24**  
+Small but meaningful milestone: I’ve reached 100 citations on Google Scholar!🎉
+
 **2025.10.28**  
 Received New Ilhan Research Award from Yonsei Research Expo ([Watch Video](https://www.youtube.com/watch?v=XReEFyo8D3Q))
 
