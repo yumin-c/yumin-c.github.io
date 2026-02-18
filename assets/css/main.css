@@ -1,0 +1,285 @@
+/* Reset */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+@import url('https://fonts.googleapis.com/css2?family=JetBrains+Mono:wght@400;700&display=swap');
+
+/* Base */
+body {
+  font-family: 'JetBrains Mono', monospace;
+  line-height: 1.4;
+  max-width: 600px;
+  margin: 1.5rem auto;
+  padding: 0 1rem;
+  color: #000;
+  background: #fff;
+  font-size: 14px;
+}
+
+/* Links */
+a {
+  color: #000;
+  text-decoration: underline;
+}
+
+a:hover {
+  background: #000;
+  color: #fff;
+}
+
+/* Typography */
+h1, h2, h3, h4 {
+  font-family: 'JetBrains Mono', monospace;
+  font-weight: bold;
+  margin: 1.5rem 0 0.75rem;
+}
+
+h1 { font-size: 1.3rem; }
+h2 { font-size: 1.1rem; }
+h3 { font-size: 1rem; }
+h4 { font-size: 1rem; }
+
+p, ul, ol {
+  margin-bottom: 0.75rem;
+}
+
+/* Header */
+.title {
+  font-size: 1.3rem;
+  font-weight: bold;
+  margin: 0.75rem 0 0.25rem;
+}
+
+.byline {
+  margin-bottom: 1.5rem;
+}
+
+/* Navigation */
+.pages {
+  margin: 1.5rem 0;
+  border-top: 1px solid #000;
+  border-bottom: 1px solid #000;
+  padding: 0.4rem 0;
+}
+
+.pages a {
+  margin-right: 1rem;
+}
+
+/* Posts */
+.post-card {
+  margin-bottom: 1.5rem;
+}
+
+.post-card h2 {
+  font-size: 1.1rem;
+  margin: 0 0 0.25rem;
+}
+
+.post-card time {
+  font-size: 0.9rem;
+}
+
+/* Code */
+pre {
+  margin: 0.75rem 0;
+  padding: 0.75rem;
+  overflow-x: auto;
+  background: #f5f5f5;
+  border: 1px solid #eee;
+}
+
+code {
+  font-family: 'JetBrains Mono', monospace;
+  font-size: 0.9em;
+  padding: 0.2em 0.4em;
+  background: #f5f5f5;
+  border: 1px solid #eee;
+}
+
+pre code {
+  padding: 0;
+  border: none;
+}
+
+/* Lists */
+ul, ol {
+  padding-left: 1.5rem;
+}
+
+li {
+  margin-bottom: 0.25rem;
+}
+
+/* Blockquotes */
+blockquote {
+  margin: 0.75rem 0;
+  padding-left: 1rem;
+  border-left: 2px solid #000;
+}
+
+/* Tables */
+table {
+  border-collapse: collapse;
+  width: 100%;
+  margin: 0.75rem 0;
+}
+
+th, td {
+  border: 1px solid #000;
+  padding: 0.4rem 0.75rem;
+  text-align: left;
+}
+
+th {
+  background: #f5f5f5;
+}
+
+/* Horizontal Rule */
+hr {
+  border: none;
+  border-top: 1px solid #000;
+  margin: 1.5rem 0;
+}
+
+/* Definition Lists */
+dl {
+  margin: 0.75rem 0;
+}
+
+dt {
+  font-weight: bold;
+}
+
+dd {
+  margin-left: 1.5rem;
+  margin-bottom: 0.75rem;
+}
+
+/* Text Formatting */
+strong { font-weight: bold; }
+em { font-style: italic; }
+del { text-decoration: line-through; }
+
+/* Footer */
+footer {
+  margin-top: 2rem;
+  padding-top: 0.75rem;
+  border-top: 1px solid #000;
+  font-size: 0.9rem;
+}
+
+/* Tags and Categories */
+.post-tags, .post-categories {
+  display: inline-block;
+  margin-top: 0.5rem;
+}
+
+.post-tags .tag, .post-categories .category {
+  display: inline-block;
+  padding: 0.2rem 0.5rem;
+  margin-right: 0.5rem;
+  background: #f5f5f5;
+  border: 1px solid #ddd;
+  font-size: 0.85rem;
+  text-decoration: none;
+}
+
+.post-tags .tag:hover, .post-categories .category:hover {
+  background: #000;
+  color: #fff;
+  border-color: #000;
+}
+
+.tags-label, .categories-label {
+  font-weight: bold;
+  margin-right: 0.5rem;
+}
+
+.post-meta {
+  margin-top: 0.5rem;
+  font-size: 0.9rem;
+  color: #666;
+}
+
+.post-meta time {
+  display: block;
+  margin-bottom: 0.5rem;
+}
+
+.post-description {
+  margin: 0.5rem 0;
+  color: #555;
+}
+
+.page-header {
+  margin-bottom: 2rem;
+}
+
+.tag-count, .category-count {
+  font-size: 0.9rem;
+  color: #666;
+  margin-top: 0.5rem;
+}
+
+.post-preview {
+  margin-bottom: 2rem;
+  padding-bottom: 1.5rem;
+  border-bottom: 1px solid #eee;
+}
+
+.post-preview:last-child {
+  border-bottom: none;
+}
+
+.breadcrumb {
+  margin-top: 2rem;
+  padding-top: 1rem;
+  border-top: 1px solid #eee;
+}
+
+/* Pagination */
+.pagination {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-top: 3rem;
+  padding-top: 2rem;
+  border-top: 1px solid #ddd;
+}
+
+.pagination-prev, .pagination-next {
+  padding: 0.5rem 1rem;
+  background: #f5f5f5;
+  border: 1px solid #ddd;
+  text-decoration: none;
+}
+
+.pagination-prev:hover, .pagination-next:hover {
+  background: #000;
+  color: #fff;
+  border-color: #000;
+}
+
+.pagination-info {
+  color: #666;
+  font-size: 0.9rem;
+}
+
+/* --- Profile photo --- */
+.profile-photo {
+  float: right;
+  width: 160px;
+  height: auto;
+  margin-left: 20px;
+}
+
+/* Responsive */
+@media (max-width: 600px) {
+  body {
+    padding: 1rem;
+  }
+}

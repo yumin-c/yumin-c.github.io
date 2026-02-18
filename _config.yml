@@ -1,0 +1,15 @@
+title: Yumin Cheong
+description: MD Candidate @ Yonsei University
+baseurl: ""
+url: ""
+theme: null
+
+defaults:
+  - scope:
+      path: ""
+    values:
+      layout: "default"
+
+markdown: kramdown
+plugins:
+  - jekyll-feed
