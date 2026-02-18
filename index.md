@@ -5,7 +5,7 @@ title: About
 
 ## Yumin Cheong
 
-<img src="https://github.com/yumin-c/yumin-c.github.io/blob/main/profile-photo.jpg?raw=true" alt="Yumin Cheong" class="profile-photo">
+<img src="https://github.com/yumin-c/yumin-c.github.io/blob/main/yumin-notion-face.png?raw=true" alt="yumin-notion-face" class="profile-photo">
 
 **MD candidate, Yonsei University College of Medicine**  
 Genome editing + Functional genomics
