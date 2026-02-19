@@ -192,12 +192,18 @@ del {
 }
 
 /* Footer */
+
 footer {
   margin-top: 2rem;
   padding-top: 0.75rem;
   border-top: 1px solid #000;
   font-size: 0.9rem;
 }
+
+.contact-links a {
+  margin-right: 1rem;
+}
+
 
 /* Tags and Categories */
 .post-tags,
@@ -317,6 +323,7 @@ footer {
     padding: 1rem;
   }
 }
+
 /* Blog Post List Layout */
 .post-list {
   list-style: none;

@@ -31,6 +31,7 @@ See more on [Google Scholar](https://scholar.google.com/citations?user=yaFcIIIAA
 
 # Awards
 
+- New Ilhan Research Award (1<sup>st</sup> prize), Yonsei Research Expo <span style="float:right;">2025</span>
 - Excellence Award, 14<sup>th</sup> Yonsei Medical Students’ Colloquium <span style="float:right;">2021</span>
 - [IFMBE Student Best Paper Award, ICBHI 2021](https://news.yonsei.ac.kr/kr/news/detail?bbSeq=24028) <span style="float:right;">2021</span>
 - [1<sup>st</sup> prize in AI sector, Digital Health Hackathon](https://www.youthdaily.co.kr/news/article.html?no=83685) <span style="float:right;">2021</span>
