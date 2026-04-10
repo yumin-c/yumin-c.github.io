@@ -4,7 +4,7 @@ title: Publications
 ---
 
 - Oh HC, Chang Y, Park J, **Cheong Y**, Lee KS, Han H, Kim HH. [High-resolution functional mapping of androgen receptor variants.](https://www.nature.com/articles/s41551-026-01647-1) *Nat Biomed Eng*. 2026 Apr 6. doi: 10.1038/s41551-026-01647-1. Epub ahead of print. PMID: 41942549.
-- **Cheong Y**, Choi Y, Kim HK, DeepPrime7: Predicting PE7 Prime Editing Efficiency Across PAM Variants. *ICLR 2026 Workshop on Generative and Experimental Perspectives for Biomolecular Design*.
+- **Cheong Y**, Choi Y, Kim HK. DeepPrime7: Predicting PE7 Prime Editing Efficiency Across PAM Variants. *ICLR 2026 Workshop on Generative and Experimental Perspectives for Biomolecular Design*.
 - Lee KS, Min JG, **Cheong Y**, Oh HC, Jung SY, Park JI, Song M, Seo JH, Cho SR, Kim HH. [Functional assessment of all ATM SNVs using prime editing and deep learning.](https://www.cell.com/cell/abstract/S0092-8674(25)00634-8) *Cell*. 2025 Sep 4;188(18):5081-5099.e27. doi: 10.1016/j.cell.2025.05.046. Epub 2025 Jun 27. PMID: 40580951.
 - Yu G, Kim HK, Park J, Kwak H, **Cheong Y**, Kim D, Kim J, Kim J, Kim HH. [Prediction of efficiencies for diverse prime editing systems in multiple cell types.](https://www.cell.com/cell/fulltext/S0092-8674(23)00331-8) *Cell*. 2023 May 11;186(10):2256-2272.e23. doi: 10.1016/j.cell.2023.03.034. Epub 2023 Apr 28. PMID: 37119812.
 
@@ -19,17 +19,17 @@ See more on [Google Scholar](https://scholar.google.com/citations?user=yaFcIIIAA
 
 **Medical AI Research Society (YUCM student club)** \| Team leader <span style="float:right;">2022</span>
 
-- Designed and delivered **MARS PyTorch Tutorial** lecture.
-- Led team project ***Understanding EEG*** to predict individualized VNS treatment effect on epileptic seizure patients.
+- Designed and delivered the **MARS PyTorch Tutorial** lecture.
+- Led team project ***Understanding EEG*** to predict individualized VNS treatment effects in epileptic seizure patients.
 
 **Digital Health Hackathon 2021** \| Team leader <span style="float:right;">2021</span>
 
 - Participated in a challenge to identify 10 genes with a causal relationship to treatment effectiveness from a pool of 300 hypothetical genes.
-- Proposed a method to leverage a MLP to identify causal relationship between gene expression and treatment response.
+- Proposed a method to leverage an MLP to identify the causal relationship between gene expression and treatment response.
 
 **Post-COVID AI Challenge** <span style="float:right;">2020</span>
 
-- Proposed a BiLSTM-based model to identify the spread path and infection probability of diseases through user-to-user key transmission.
+- Proposed a BiLSTM-based model to identify the spread path and infection probability of diseases through user-to-user BLE key transmission.
 
 # Awards
 
