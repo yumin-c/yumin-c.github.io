@@ -4,7 +4,7 @@ title: News
 ---
 
 **2026.04.06**
-Our new [functional screen study](https://www.nature.com/articles/s41551-026-01647-1) on Androgen Receptor variants published in Nature Biomedical Engineering!
+Our new [functional screening study](https://www.nature.com/articles/s41551-026-01647-1) on Androgen Receptor variants published in Nature Biomedical Engineering!
 
 **2026.03.01**
 I will be presenting a poster about DeepPrime7 at the GEM workshop @ ICLR 2026.
