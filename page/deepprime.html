@@ -8,7 +8,8 @@ title: DeepPrime Glossary
   DeepPrime expands therapeutic prime editing design to PE7 across all PAM contexts.
 </p>
 
-<p>A reference glossary for key terms in the DeepPrime paper, covering prime editing components, PAM variants, and the deep learning framework.</p>
+<p>A reference glossary for key terms in the DeepPrime paper, covering prime editing components, PAM variants, and the
+  deep learning framework.</p>
 
 <hr>
 
@@ -16,16 +17,23 @@ title: DeepPrime Glossary
 
 <dl>
   <dt>pegRNA (Prime Editing Guide RNA)</dt>
-  <dd>An engineered RNA that both targets the prime editor to the genomic site and encodes the desired edit. Unlike a standard sgRNA, pegRNA carries a 3&prime; extension consisting of the PBS and RTT. It is the central molecular tool of prime editing.</dd>
+  <dd>An engineered RNA that both targets the prime editor to the genomic site and encodes the desired edit. Unlike a
+    standard sgRNA, pegRNA carries a 3&prime; extension consisting of the PBS and RTT. It is the central molecular tool
+    of prime editing.</dd>
 
   <dt>Spacer</dt>
-  <dd>The ~20 nt sequence at the 5&prime; end of pegRNA that base-pairs with the target strand of genomic DNA. Guides the nCas9 to the correct locus.</dd>
+  <dd>The ~20 nt sequence at the 5&prime; end of pegRNA that base-pairs with the target strand of genomic DNA. Guides
+    the nCas9 to the correct locus.</dd>
 
   <dt>RTT (Reverse Transcriptase Template)</dt>
-  <dd>The portion of the pegRNA 3&prime; extension that serves as the template for reverse transcription. The desired edit (substitution, insertion, or deletion) is encoded here. The RT enzyme reads the RTT to synthesize the new DNA strand carrying the intended sequence change.</dd>
+  <dd>The portion of the pegRNA 3&prime; extension that serves as the template for reverse transcription. The desired
+    edit (substitution, insertion, or deletion) is encoded here. The RT enzyme reads the RTT to synthesize the new DNA
+    strand carrying the intended sequence change.</dd>
 
   <dt>PBS (Primer Binding Site)</dt>
-  <dd>Located at the 3&prime; tip of the pegRNA extension. After nCas9 nicks the non-template strand, the 3&prime; end of the nicked strand hybridizes to the PBS, priming reverse transcription of the RTT. PBS length typically ranges from 8–17 nt and strongly influences editing efficiency.</dd>
+  <dd>Located at the 3&prime; tip of the pegRNA extension. After nCas9 nicks the non-template strand, the 3&prime; end
+    of the nicked strand hybridizes to the PBS, priming reverse transcription of the RTT. PBS length typically ranges
+    from 8–17 nt and strongly influences editing efficiency.</dd>
 
 </dl>
 
@@ -35,29 +43,40 @@ title: DeepPrime Glossary
 
 <dl>
   <dt>PAM (Protospacer Adjacent Motif)</dt>
-  <dd>A short DNA motif (e.g., <code>NGG</code> for canonical SpCas9) immediately 3&prime; of the protospacer. Required for Cas9 binding and strand separation. PAM identity determines which genomic sites are targetable; engineering PAM-relaxed Cas9 variants greatly expands the editable sequence space.</dd>
+  <dd>A short DNA motif (e.g., <code>NGG</code> for canonical SpCas9) immediately 3&prime; of the protospacer. Required
+    for Cas9 binding and strand separation. PAM identity determines which genomic sites are targetable; engineering
+    PAM-relaxed Cas9 variants greatly expands the editable sequence space.</dd>
 
   <dt>nCas9 (Nickase Cas9)</dt>
-  <dd>A Cas9 variant harboring the H840A mutation, which inactivates the HNH domain. nCas9 cuts only the non-template (PAM-containing) strand, producing a single-strand nick rather than a double-strand break. This nick is required to expose the 3&prime; end for PBS annealing.</dd>
+  <dd>A Cas9 variant harboring the H840A mutation, which inactivates the HNH domain. nCas9 cuts only the non-template
+    (PAM-containing) strand, producing a single-strand nick rather than a double-strand break. This nick is required to
+    expose the 3&prime; end for PBS annealing.</dd>
 
   <dt>RT (Reverse Transcriptase)</dt>
-  <dd>The enzyme fused to nCas9 in the prime editor construct. After nick formation, RT uses the PBS-annealed strand as a primer and the RTT as a template to synthesize a new DNA flap containing the intended edit. Typically derived from M-MLV reverse transcriptase with engineered mutations for improved processivity and thermostability.</dd>
+  <dd>The enzyme fused to nCas9 in the prime editor construct. After nick formation, RT uses the PBS-annealed strand as
+    a primer and the RTT as a template to synthesize a new DNA flap containing the intended edit. Typically derived from
+    M-MLV reverse transcriptase with engineered mutations for improved processivity and thermostability.</dd>
 
   <dt>Nick / Nicking</dt>
-  <dd>A single-strand break introduced by nCas9 on the non-template strand. Nicking is the initiating event of prime editing; the resulting 3&prime; flap anneals to the PBS of pegRNA.</dd>
+  <dd>A single-strand break introduced by nCas9 on the non-template strand. Nicking is the initiating event of prime
+    editing; the resulting 3&prime; flap anneals to the PBS of pegRNA.</dd>
 
   <dt>3&prime; Flap</dt>
-  <dd>The newly reverse-transcribed DNA strand containing the edit. After RT extends from the PBS through the RTT, the 3&prime; flap is displaced and competes with the original sequence for incorporation into the genome. Resolution of the 5&prime; flap and ligation seals the edit.</dd>
+  <dd>The newly reverse-transcribed DNA strand containing the edit. After RT extends from the PBS through the RTT, the
+    3&prime; flap is displaced and competes with the original sequence for incorporation into the genome. Resolution of
+    the 5&prime; flap and ligation seals the edit.</dd>
 
   <dt>Indels (Insertions/Deletions)</dt>
-  <dd>Unintended mutations arising from error-prone repair of nicks or residual double-strand breaks. A key metric of off-target activity; DeepPrime models aim to maximize precise editing while minimizing indel byproducts.</dd>
+  <dd>Unintended mutations arising from error-prone repair of nicks or residual double-strand breaks. A key metric of
+    off-target activity; DeepPrime models aim to maximize precise editing while minimizing indel byproducts.</dd>
 </dl>
 
 <hr>
 
 <h2>PAM Variants</h2>
 
-<p>Engineered SpCas9 variants recognize expanded or alternative PAM sequences, enabling prime editing at sites inaccessible to wild-type SpCas9 (<code>NGG</code>). IUPAC notation: N = any; R = A/G; H = A/C/T; Y = C/T.</p>
+<p>Engineered SpCas9 variants recognize expanded or alternative PAM sequences, enabling prime editing at sites
+  inaccessible to wild-type SpCas9 (<code>NGG</code>). IUPAC notation: N = any; R = A/G; H = A/C/T; Y = C/T.</p>
 
 <table>
   <thead>
@@ -76,12 +95,14 @@ title: DeepPrime Glossary
     <tr>
       <td><code>NRCH</code></td>
       <td>SpCas9-NRCH</td>
-      <td>N–R–C–H; an engineered variant accepting non-NGG PAMs including NRCH motifs, substantially expanding coverage</td>
+      <td>N–R–C–H; an engineered variant accepting non-NGG PAMs including NRCH motifs, substantially expanding coverage
+      </td>
     </tr>
     <tr>
       <td><code>NRTH</code></td>
       <td>SpCas9-NRTH</td>
-      <td>N–R–T–H; a related variant further relaxing PAM requirements, enabling near-PAMless targeting when combined with other variants</td>
+      <td>N–R–T–H; a related variant further relaxing PAM requirements, enabling near-PAMless targeting when combined
+        with other variants</td>
     </tr>
   </tbody>
 </table>
@@ -92,13 +113,18 @@ title: DeepPrime Glossary
 
 <dl>
   <dt>PE2</dt>
-  <dd>The foundational prime editor: nCas9(H840A)–M-MLV RT fusion + pegRNA. Introduces precise edits with low indels, but at modest efficiency.</dd>
+  <dd>The foundational prime editor: nCas9(H840A)–M-MLV RT fusion + pegRNA. Introduces precise edits with low indels,
+    but at modest efficiency.</dd>
 
   <dt>PE4</dt>
-  <dd>PE2 co-expressed with MLH1dn, a dominant-negative MMR factor that transiently suppresses mismatch repair. By preventing the cell from recognizing the edited strand as "mismatched," PE4 substantially increases editing efficiency compared to PE2, particularly for substitutions.</dd>
+  <dd>PE2 co-expressed with MLH1dn, a dominant-negative MMR factor that transiently suppresses mismatch repair. By
+    preventing the cell from recognizing the edited strand as "mismatched," PE4 substantially increases editing
+    efficiency compared to PE2, particularly for substitutions.</dd>
 
   <dt>PE7</dt>
-  <dd>An advanced prime editor incorporating improved RT variants and optimized nCas9 components. DeepPrime7 is trained specifically on PE7 editing data, enabling efficiency prediction across all PAM contexts supported by PE7-compatible Cas9 variants.</dd>
+  <dd>An advanced prime editor incorporating improved RT variants and optimized nCas9 components. DeepPrime7 is trained
+    specifically on PE7 editing data, enabling efficiency prediction across all PAM contexts supported by PE7-compatible
+    Cas9 variants.</dd>
 </dl>
 
 <hr>
@@ -107,8 +133,12 @@ title: DeepPrime Glossary
 
 <dl>
   <dt>DeepPrime</dt>
-  <dd>A deep learning framework (transformer-based) that predicts prime editing efficiency given a pegRNA design and target sequence. Trained on large-scale endogenous prime editing data, it scores PBS length, RTT composition, local chromatin context, and PE system type to guide optimal pegRNA selection.</dd>
+  <dd>A deep learning framework (CNN-based) that predicts prime editing efficiency given a pegRNA design and target
+    sequence. Trained on large-scale endogenous prime editing data, it scores PBS length, RTT composition, local
+    chromatin context, and PE system type to guide optimal pegRNA selection.</dd>
 
   <dt>DeepPrime7</dt>
-  <dd>The PE7-specific extension of DeepPrime. By incorporating PE7 training data across diverse PAM contexts—including NRCH and NRTH variants—DeepPrime7 enables in silico design of high-efficiency pegRNAs for therapeutic targets that were previously unreachable with NGG-only tools.</dd>
+  <dd>The PE7-specific extension of DeepPrime. By incorporating PE7 training data across diverse PAM contexts—including
+    NRCH and NRTH variants—DeepPrime7 enables in silico design of high-efficiency pegRNAs for therapeutic targets that
+    were previously unreachable with NGG-only tools.</dd>
 </dl>
