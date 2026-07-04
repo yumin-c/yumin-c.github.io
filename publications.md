@@ -10,12 +10,7 @@ title: Publications
 
 See more on [Google Scholar](https://scholar.google.com/citations?user=yaFcIIIAAAAJ).
 
-# Projects
-
-**Sev.Menus (세브메뉴)** <span style="float:right;">2024</span>
-
-- Developed and deployed an **[iOS menu app](https://apps.apple.com/kr/app/%EC%84%B8%EB%B8%8C%EB%A9%94%EB%89%B4/id6499293178?l=en-GB)** for students at Severance Hospital, serving the Colleges of Medicine, Dentistry, and Nursing at Yonsei University.
-- Contributed to the campus community with a widely-used utility app (2.5K+ downloads, 1K daily active users).
+# Research and AI Projects
 
 **Medical AI Research Society (YUCM student club)** \| Team leader <span style="float:right;">2022</span>
 
@@ -27,14 +22,9 @@ See more on [Google Scholar](https://scholar.google.com/citations?user=yaFcIIIAA
 - Participated in a challenge to identify 10 genes with a causal relationship to treatment effectiveness from a pool of 300 hypothetical genes.
 - Proposed a method to leverage an MLP to identify the causal relationship between gene expression and treatment response.
 
-**Post-COVID AI Challenge** <span style="float:right;">2020</span>
-
-- Proposed a BiLSTM-based model to identify the spread path and infection probability of diseases through user-to-user BLE key transmission.
-
 # Awards
 
 - New Ilhan Research Award (1<sup>st</sup> prize), Yonsei Research Expo <span style="float:right;">2025</span>
 - Excellence Award, 14<sup>th</sup> Yonsei Medical Students’ Colloquium <span style="float:right;">2021</span>
 - [IFMBE Student Best Paper Award, ICBHI 2021](https://news.yonsei.ac.kr/kr/news/detail?bbSeq=24028) <span style="float:right;">2021</span>
 - [1<sup>st</sup> prize in AI sector, Digital Health Hackathon](https://www.youthdaily.co.kr/news/article.html?no=83685) <span style="float:right;">2021</span>
-- 1<sup>st</sup> prize in Post-COVID AI Challenge <span style="float:right;">2020</span>
